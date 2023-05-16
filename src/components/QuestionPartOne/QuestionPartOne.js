@@ -17,47 +17,59 @@ const QuestionPartOne = () => {
             </div>
             <div class="p-4 text-slate-500 font-normal">
                 <div class="flex flex-row mt-2">
-                    <p class="w-8 text-center font-bold ml-2 bg-slate-300 text-slate-400">1.</p><p class="ml-2"> The reservation is for today</p>
+                    <p class="w-8 text-center font-bold ml-2 bg-slate-300 text-slate-400">1.</p><p class="ml-2"> What is the woman from?</p>
                 </div>
                 <div class="flex items-center mb-4 mx-10 p-2">
-                    <input type="radio" name="answer" value="true" class="w-4 h-4 border-gray-300 focus:ring-2 focus:ring-blue-300 dark:focus:ring-blue-600 dark:focus:bg-blue-600 dark:bg-gray-700 dark:border-gray-600" />
+                    <input type="radio" name="answer" value="germany" class="w-4 h-4 border-gray-300 focus:ring-2 focus:ring-blue-300 dark:focus:ring-blue-600 dark:focus:bg-blue-600 dark:bg-gray-700 dark:border-gray-600" />
                     <label class="text-lg px-2">
-                        True
+                        Germany
                     </label>
                 </div>
                 <div class="flex items-center mb-4 mx-10 p-2">
-                    <input type="radio" name="answer" value="false" class="w-4 h-4 border-gray-300 focus:ring-2 focus:ring-blue-300 dark:focus:ring-blue-600 dark:focus:bg-blue-600 dark:bg-gray-700 dark:border-gray-600" />
+                    <input type="radio" name="answer" value="russia" class="w-4 h-4 border-gray-300 focus:ring-2 focus:ring-blue-300 dark:focus:ring-blue-600 dark:focus:bg-blue-600 dark:bg-gray-700 dark:border-gray-600" />
                     <label class="text-lg px-2">
-                        False
+                        Russia
+                    </label>
+                </div>
+                <div class="flex items-center mb-4 mx-10 p-2">
+                    <input type="radio" name="answer" value="australia" class="w-4 h-4 border-gray-300 focus:ring-2 focus:ring-blue-300 dark:focus:ring-blue-600 dark:focus:bg-blue-600 dark:bg-gray-700 dark:border-gray-600" />
+                    <label class="text-lg px-2">
+                        Australia
+                    </label>
+                </div>
+                <div class="flex items-center mb-4 mx-10 p-2">
+                    <input type="radio" name="answer" value="indonesia" class="w-4 h-4 border-gray-300 focus:ring-2 focus:ring-blue-300 dark:focus:ring-blue-600 dark:focus:bg-blue-600 dark:bg-gray-700 dark:border-gray-600" />
+                    <label class="text-lg px-2">
+                        Indonesia
                     </label>
                 </div>
             </div>
             <div class="p-4 text-slate-500 font-normal">
                 <div class="flex flex-row mt-2">
-                    <p class="w-8 text-center font-bold ml-2 bg-slate-300 text-slate-400">2.</p><p class="ml-2"> What time is the reservation?</p>
+                    <p class="w-8 text-center font-bold ml-2 bg-slate-300 text-slate-400">2.</p><p class="ml-2"> The woman says that you can travel from Croatia to Germany in two hours by</p>
                 </div>
                 <div class="flex items-center mb-4 mx-10 p-2">
-                    <input type="radio" name="answer" value="7" class="w-4 h-4 border-gray-300 focus:ring-2 focus:ring-blue-300 dark:focus:ring-blue-600 dark:focus:bg-blue-600 dark:bg-gray-700 dark:border-gray-600" />
+                    <input type="radio" name="answer" value="germany" class="w-4 h-4 border-gray-300 focus:ring-2 focus:ring-blue-300 dark:focus:ring-blue-600 dark:focus:bg-blue-600 dark:bg-gray-700 dark:border-gray-600" />
                     <label class="text-lg px-2">
-                        7
+                        Germany
                     </label>
                 </div>
                 <div class="flex items-center mb-4 mx-10 p-2">
-                    <input type="radio" name="answer" value="6" class="w-4 h-4 border-gray-300 focus:ring-2 focus:ring-blue-300 dark:focus:ring-blue-600 dark:focus:bg-blue-600 dark:bg-gray-700 dark:border-gray-600" />
+                    <input type="radio" name="answer" value="russia" class="w-4 h-4 border-gray-300 focus:ring-2 focus:ring-blue-300 dark:focus:ring-blue-600 dark:focus:bg-blue-600 dark:bg-gray-700 dark:border-gray-600" />
                     <label class="text-lg px-2">
-                        6
+                        Russia
                     </label>
                 </div>
                 <div class="flex items-center mb-4 mx-10 p-2">
-                    <input type="radio" name="answer" value="730" class="w-4 h-4 border-gray-300 focus:ring-2 focus:ring-blue-300 dark:focus:ring-blue-600 dark:focus:bg-blue-600 dark:bg-gray-700 dark:border-gray-600" />
+                    <input type="radio" name="answer" value="australia" class="w-4 h-4 border-gray-300 focus:ring-2 focus:ring-blue-300 dark:focus:ring-blue-600 dark:focus:bg-blue-600 dark:bg-gray-700 dark:border-gray-600" />
                     <label class="text-lg px-2">
-                        7:30
+                        Australia
                     </label>
                 </div>
                 <div class="flex items-center mb-4 mx-10 p-2">
-                    <input type="radio" name="answer" value="710" class="w-4 h-4 border-gray-300 focus:ring-2 focus:ring-blue-300 dark:focus:ring-blue-600 dark:focus:bg-blue-600 dark:bg-gray-700 dark:border-gray-600" />
+                    <input type="radio" name="answer" value="indonesia" class="w-4 h-4 border-gray-300 focus:ring-2 focus:ring-blue-300 dark:focus:ring-blue-600 dark:focus:bg-blue-600 dark:bg-gray-700 dark:border-gray-600" />
                     <label class="text-lg px-2">
-                        7:10
+                        Indonesia
                     </label>
                 </div>
             </div>
