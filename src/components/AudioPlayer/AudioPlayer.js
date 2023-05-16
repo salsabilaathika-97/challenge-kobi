@@ -54,7 +54,7 @@ const AudioPlayer = () => {
         }
     }
     return (
-        <div class = "flex flex-row w-full bg-slate-200">
+        <div class = "flex flex-row w-full bg-slate-200 p-2">
             {
                 !isPlaying ? (
                     <button class="justify-center border-collapse bg-transparent" onClick={handlePlay}>
@@ -71,9 +71,10 @@ const AudioPlayer = () => {
                         </button>
                     )
             }
-            <div>
+            <div class = "flex flex-row p-3">
                 <p>{currentTime.min}:{currentTime.sec}</p>
-                <p>{time.min}:{time.sec}</p>
+                <p class = "mx-2">/</p>
+                <p class = "ml-4">{time.min}:{time.sec}</p>
             </div>
             <input
                 type="range"
