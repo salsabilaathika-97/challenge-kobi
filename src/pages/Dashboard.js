@@ -6,6 +6,7 @@ import QuestionPartOne from "../components/QuestionPartOne/QuestionPartOne";
 import QuestionPartTwo from "../components/QuestionPartTwo/QuestionPartTwo";
 import QuestionPartThree from "../components/QuestionPartThree/QuestionPartThree";
 import QuestionPartFour from "../components/QuestionPartFour/QuestionPartFour";
+import Timer from "../components/Timer/Timer";
 
 const Dashboard = () => {
     return (
@@ -14,7 +15,22 @@ const Dashboard = () => {
             <div class="grid grid-cols-1 items-center" >
                 <div class="grid grid-cols-2 gap-8 my-8 mx-10">
                     <div class="text-lg text-slate-500 font-bold">
-                        Listening Tips
+                        <div class="flex flex-row mb-4">
+                            <div class = "py-1">
+                                Listening Tips
+                            </div>
+                            <div class="mx-2 w-56 text-center font-normal bg-blue-500 rounded-full text-white">
+                                <div class="flex flex-row justify-center p-1">
+                                    <div class="p-1">
+                                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                                            <path stroke-linecap="round" stroke-linejoin="round" d="M12 6v6h4.5m4.5 0a9 9 0 11-18 0 9 9 0 0118 0z" />
+                                        </svg>
+                                    </div>
+                                    <p class="mr-4 ml-2">Time left</p>
+                                    <Timer />
+                                </div>
+                            </div>
+                        </div>
                         <p class="text-sm text-slate-">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque vel leo ipsum. Quisque nisl erat, LoreSm ipsum dolor sit amet, consectetur adipiscing elit</p>
                         <div class="my-4">
                             <AudioPlayer />
@@ -40,7 +56,7 @@ const Dashboard = () => {
                                 ))
                             }
                         </div>
-                        <div class = "p-2">
+                        <div class="p-2">
                             Ket:
                             <div class="flex flex-row">
                                 <div class="w-11 h-auto m-2 bg-green-200 rounded-full"></div><p class="m-2 p-2">Answered</p>
