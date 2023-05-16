@@ -3,6 +3,7 @@ import Navbar from "../components/Navbar/Navbar";
 import { QuestionStatus } from "../const/StaticData";
 import AudioPlayer from "../components/AudioPlayer/AudioPlayer";
 import QuestionPartOne from "../components/QuestionPartOne/QuestionPartOne";
+import QuestionPartTwo from "../components/QuestionPartTwo/QuestionPartTwo";
 
 const Dashboard = () => {
     return (
@@ -16,6 +17,7 @@ const Dashboard = () => {
                         <AudioPlayer />
                     </div>
                     <QuestionPartOne />
+                    <QuestionPartTwo />
                 </div>
 
                 <div class="bg-slate-500 h-max p-2 text-lg text-white font-bold">
