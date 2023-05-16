@@ -43,7 +43,7 @@ const Timer = () => {
     const getDeadTime = () => {
         let deadline = new Date();
 
-        deadline.setSeconds(deadline.getSeconds() + 10);
+        deadline.setSeconds(deadline.getSeconds() + 5400);
         return deadline;
     }
 
