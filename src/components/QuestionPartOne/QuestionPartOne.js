@@ -12,9 +12,12 @@ const QuestionPartOne = () => {
                 </svg>
                     <span class="font-normal">Click here for listen</span></button>
             </div>
+            <div class="font-semibold italic text-lg mb-4 px-4">
+                <p class="mt-2 mb-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            </div>
             <div class="p-4 text-slate-500 font-normal">
                 <div class="flex flex-row mt-2">
-                    <p class="w-8 text-center font-bold ml-2 bg-slate-300 text-slate-400">1.</p><p class = "ml-2"> The reservation is for today</p>
+                    <p class="w-8 text-center font-bold ml-2 bg-slate-300 text-slate-400">1.</p><p class="ml-2"> The reservation is for today</p>
                 </div>
                 <div class="flex items-center mb-4 mx-10 p-2">
                     <input id="country-option-1" type="radio" name="countries" value="USA" class="w-4 h-4 border-gray-300 focus:ring-2 focus:ring-blue-300 dark:focus:ring-blue-600 dark:focus:bg-blue-600 dark:bg-gray-700 dark:border-gray-600" />
@@ -31,7 +34,7 @@ const QuestionPartOne = () => {
             </div>
             <div class="p-4 text-slate-500 font-normal">
                 <div class="flex flex-row mt-2">
-                    <p class="w-8 text-center font-bold ml-2 bg-slate-300 text-slate-400">2.</p><p class = "ml-2"> What time is the reservation?</p>
+                    <p class="w-8 text-center font-bold ml-2 bg-slate-300 text-slate-400">2.</p><p class="ml-2"> What time is the reservation?</p>
                 </div>
                 <div class="flex items-center mb-4 mx-10 p-2">
                     <input id="country-option-1" type="radio" name="countries" value="USA" class="w-4 h-4 border-gray-300 focus:ring-2 focus:ring-blue-300 dark:focus:ring-blue-600 dark:focus:bg-blue-600 dark:bg-gray-700 dark:border-gray-600" />

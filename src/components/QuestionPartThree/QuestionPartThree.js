@@ -13,7 +13,7 @@ const QuestionPartThree = () => {
                 </svg>
                     <span class="font-normal">Click here for listen</span></button>
             </div>
-            <div class="font-normal italic text-lg mb-4 px-4">
+            <div class="font-semibold italic text-lg mb-4 px-4">
                 <p class="mt-2 mb-4">Label the diagram/plan below</p>
                 <p class="mt-2 mb-4">Write the correct letter, A-G next to question 11-13</p>
             </div>

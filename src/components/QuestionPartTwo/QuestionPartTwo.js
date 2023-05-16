@@ -11,7 +11,7 @@ const QuestionPartTwo = () => {
                 </svg>
                     <span class="font-normal">Click here for listen</span></button>
             </div>
-            <p class="font-normal text-lg mb-4 px-4">Complete the form below, using NO MORE THAN THREE WORDS AND/OR NUMBER for each answer</p>
+            <p class="font-semibold text-lg mb-4 px-4 italic">Complete the form below, using NO MORE THAN THREE WORDS AND/OR NUMBER for each answer</p>
             <div class="grid grid-cols-1 bg-slate-200 h-max font-normal p-2">
                 <p class="text-center text-2xl">Travel Safe</p>
                 <div class = "px-12">
