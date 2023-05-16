@@ -1,6 +1,6 @@
 # Listening Test Website
 
-This is a simple listening test website using React Framework and Tailwind CSS as challenge test in Kobi Education.
+This is a simple listening test website using React Framework and Tailwind CSS for frontend assessment test in Kobi Education.
 
 ## Installation
 
