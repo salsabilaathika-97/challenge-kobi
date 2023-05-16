@@ -14,13 +14,13 @@ const QuestionPartOne = () => {
             </div>
             <div class="p-4 text-slate-500 font-normal">
                 <p class="mt-2">1. The reservation is for today</p>
-                <div class="flex items-center mb-4 p-2">
+                <div class="flex items-center mb-4 mx-4 p-2">
                     <input id="country-option-1" type="radio" name="countries" value="USA" class="w-4 h-4 border-gray-300 focus:ring-2 focus:ring-blue-300 dark:focus:ring-blue-600 dark:focus:bg-blue-600 dark:bg-gray-700 dark:border-gray-600" />
                     <label for="country-option-1" class="text-lg px-2">
                         True
                     </label>
                 </div>
-                <div class="flex items-center mb-4 p-2">
+                <div class="flex items-center mb-4 mx-4 p-2">
                     <input id="country-option-2" type="radio" name="countries" value="Germany" class="w-4 h-4 border-gray-300 focus:ring-2 focus:ring-blue-300 dark:focus:ring-blue-600 dark:focus:bg-blue-600 dark:bg-gray-700 dark:border-gray-600" />
                     <label for="country-option-2" class="text-lg px-2">
                         False
@@ -29,25 +29,25 @@ const QuestionPartOne = () => {
             </div>
             <div class="p-4 text-slate-500 font-normal">
                 <p class="mt-2">2. What time is the reservation?</p>
-                <div class="flex items-center mb-4 p-2">
+                <div class="flex items-center mb-4 mx-4 p-2">
                     <input id="country-option-1" type="radio" name="countries" value="USA" class="w-4 h-4 border-gray-300 focus:ring-2 focus:ring-blue-300 dark:focus:ring-blue-600 dark:focus:bg-blue-600 dark:bg-gray-700 dark:border-gray-600" />
                     <label for="country-option-1" class="text-lg px-2">
                         7
                     </label>
                 </div>
-                <div class="flex items-center mb-4 p-2">
+                <div class="flex items-center mb-4 mx-4 p-2">
                     <input id="country-option-2" type="radio" name="countries" value="Germany" class="w-4 h-4 border-gray-300 focus:ring-2 focus:ring-blue-300 dark:focus:ring-blue-600 dark:focus:bg-blue-600 dark:bg-gray-700 dark:border-gray-600" />
                     <label for="country-option-2" class="text-lg px-2">
                         6
                     </label>
                 </div>
-                <div class="flex items-center mb-4 p-2">
+                <div class="flex items-center mb-4 mx-4 p-2">
                     <input id="country-option-1" type="radio" name="countries" value="USA" class="w-4 h-4 border-gray-300 focus:ring-2 focus:ring-blue-300 dark:focus:ring-blue-600 dark:focus:bg-blue-600 dark:bg-gray-700 dark:border-gray-600" />
                     <label for="country-option-1" class="text-lg px-2">
                         7:30
                     </label>
                 </div>
-                <div class="flex items-center mb-4 p-2">
+                <div class="flex items-center mb-4 mx-4 p-2">
                     <input id="country-option-2" type="radio" name="countries" value="Germany" class="w-4 h-4 border-gray-300 focus:ring-2 focus:ring-blue-300 dark:focus:ring-blue-600 dark:focus:bg-blue-600 dark:bg-gray-700 dark:border-gray-600" />
                     <label for="country-option-2" class="text-lg px-2">
                         7:10
