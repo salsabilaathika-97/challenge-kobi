@@ -14,18 +14,20 @@ const QuestionPartTwo = () => {
             <p class="font-normal text-lg mb-4 px-4">Complete the form below, using NO MORE THAN THREE WORDS AND/OR NUMBER for each answer</p>
             <div class="grid grid-cols-1 bg-slate-200 h-max font-normal p-2">
                 <p class="text-center text-2xl">Travel Safe</p>
-                <p class="mt-8 ml-2">Department: Motor Insurance</p>
-                <div class="ml-2 mb-4">
-                    <p class="text-lg mt-8">Client Details: </p>
-                    <div class="flex flex-row">
-                        <p>Name: Elisabeth</p><p class="font-bold ml-2 bg-slate-500 text-white">[7].......</p>
-                    </div>
-                    <p>Date of birthL 8. 10. 1975</p>
-                    <div class="flex flex-row">
-                        <p>Address: </p><p class="font-bold mx-2 bg-slate-500 text-white">[8]....... </p><p>(street) Callington (town)</p>
-                    </div>
-                    <div class="flex flex-row">
-                        <p>Policy number: </p><p class="font-bold ml-2 bg-slate-500 text-white">[10].......</p>
+                <div class = "px-12">
+                    <p class="mt-8 ml-2">Department: Motor Insurance</p>
+                    <div class="ml-2 mb-4">
+                        <p class="text-xl mt-8 mb-2">Client Details: </p>
+                        <div class="flex flex-row mb-2">
+                            <p>Name: Elisabeth</p><p class="font-bold ml-2 bg-slate-300 h-max w-8 text-center text-slate-400">[7]</p><p class="mx-2">.......</p>
+                        </div>
+                        <p class="mb-2">Date of birth: 8. 10. 1975</p>
+                        <div class="flex flex-row mb-2">
+                            <p class="mb-2">Address: </p><p class="font-bold mx-2 bg-slate-300 h-max w-8 text-center text-slate-400">[8]</p><p class="mx-2">....... </p><p>(street) Callington (town)</p>
+                        </div>
+                        <div class="flex flex-row">
+                            <p>Policy number: </p><p class="font-bold ml-2 bg-slate-300 h-max w-10 text-center text-slate-400">[10]</p><p class="mx-2">.......</p>
+                        </div>
                     </div>
                 </div>
             </div>

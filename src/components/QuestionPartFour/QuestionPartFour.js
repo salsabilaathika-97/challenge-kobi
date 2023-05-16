@@ -15,15 +15,15 @@ const QuestionPartFour = () => {
                 <p class="mt-2 mb-4">Answer the following questions NO MORE THAN THREE WORDS AND/OR NUMBER</p>
             </div>
             <div class="flex flex-row m-4">
-                <p class="w-8 text-center font-bold ml-2 bg-slate-500 text-white">14</p><p class="font-normal ml-2">What end of the market are the properties?</p>
+                <p class="w-8 text-center font-bold ml-2 bg-slate-300 text-slate-400">14</p><p class="font-normal ml-2">What end of the market are the properties?</p>
             </div>
             <p class = "mx-16 text-base">answer ............</p>
             <div class="flex flex-row m-4">
-                <p class="w-8 text-center font-bold ml-2 bg-slate-500 text-white">15</p><p class="font-normal ml-2">What does the speaker compare buying houses with?</p>
+                <p class="w-8 text-center font-bold ml-2 bg-slate-300 text-slate-400">15</p><p class="font-normal ml-2">What does the speaker compare buying houses with?</p>
             </div>
             <p class = "mx-16 text-base">answer ............</p>
             <div class="flex flex-row m-4">
-                <p class="w-8 text-center font-bold ml-2 bg-slate-500 text-white">16</p><p class="font-normal ml-2">How can you ask the speaker a question?</p>
+                <p class="w-8 text-center font-bold ml-2 bg-slate-300 text-slate-400">16</p><p class="font-normal ml-2">How can you ask the speaker a question?</p>
             </div>
             <p class = "mx-16 text-base">answer ............</p>
         </div>

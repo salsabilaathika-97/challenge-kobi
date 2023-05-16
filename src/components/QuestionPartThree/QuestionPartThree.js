@@ -21,13 +21,13 @@ const QuestionPartThree = () => {
                 <img class="mx-48" src={placeholder} />
             </div>
             <div class="flex flex-row m-4">
-                <p class="w-8 text-center font-bold ml-2 bg-slate-500 text-white">11</p><p class="font-normal ml-2">traffic lights .........</p>
+                <p class="w-8 text-center font-bold ml-2 bg-slate-300 text-slate-400">11</p><p class="font-normal ml-2">traffic lights .........</p>
             </div>
             <div class="flex flex-row m-4">
-                <p class="w-8 text-center font-bold ml-2 bg-slate-500 text-white">12</p><p class="font-normal ml-2">petrol station .........</p>
+                <p class="w-8 text-center font-bold ml-2 bg-slate-300 text-slate-400">12</p><p class="font-normal ml-2">petrol station .........</p>
             </div>
             <div class="flex flex-row m-4">
-                <p class="w-8 text-center font-bold ml-2 bg-slate-500 text-white">13</p><p class="font-normal ml-2">blue van .........</p>
+                <p class="w-8 text-center font-bold ml-2 bg-slate-300 text-slate-400">13</p><p class="font-normal ml-2">blue van .........</p>
             </div>
         </div>
     )
