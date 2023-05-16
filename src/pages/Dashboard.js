@@ -4,6 +4,7 @@ import { QuestionStatus } from "../const/StaticData";
 import AudioPlayer from "../components/AudioPlayer/AudioPlayer";
 import QuestionPartOne from "../components/QuestionPartOne/QuestionPartOne";
 import QuestionPartTwo from "../components/QuestionPartTwo/QuestionPartTwo";
+import QuestionPartThree from "../components/QuestionPartThree/QuestionPartThree";
 
 const Dashboard = () => {
     return (
@@ -18,6 +19,7 @@ const Dashboard = () => {
                     </div>
                     <QuestionPartOne />
                     <QuestionPartTwo />
+                    <QuestionPartThree />
                 </div>
 
                 <div class="bg-slate-500 h-max p-2 text-lg text-white font-bold">
