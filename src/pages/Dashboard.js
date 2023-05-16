@@ -19,7 +19,7 @@ const Dashboard = () => {
                             <div class = "py-1 text-2xl">
                                 Listening Tips
                             </div>
-                            <div class="mx-2 w-56 text-center font-normal bg-blue-500 rounded-full text-white">
+                            <div class="mx-4 w-56 text-center font-normal bg-blue-500 rounded-full text-white">
                                 <div class="flex flex-row justify-center p-1">
                                     <div class="p-1">
                                         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
@@ -31,7 +31,7 @@ const Dashboard = () => {
                                 </div>
                             </div>
                         </div>
-                        <p class="text-sm text-slate-">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque vel leo ipsum. Quisque nisl erat, LoreSm ipsum dolor sit amet, consectetur adipiscing elit</p>
+                        <p class="text-lg font-normal text-slate-">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque vel leo ipsum. Quisque nisl erat, LoreSm ipsum dolor sit amet, consectetur adipiscing elit</p>
                         <div class="my-4">
                             <AudioPlayer />
                         </div>
