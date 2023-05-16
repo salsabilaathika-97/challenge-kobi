@@ -5,11 +5,11 @@ const Navbar = () => {
     const [navbarOpen, setNavbarOpen] = useState(false);
     return (
         <div>
-            <nav className="relative flex flex-wrap items-center justify-between px-2 py-3 bg-slate-500 mb-3">
+            <nav className="relative flex flex-wrap items-center justify-between px-2 py-3 bg-slate-200 mb-3">
                 <div className="container px-4 mx-auto flex flex-wrap items-center justify-between">
                     <div className="w-full relative flex justify-between lg:w-auto lg:static lg:block lg:justify-start">
                         <a
-                            className="text-lg font-bold font-sans leading-relaxed inline-block mr-4 py-2 whitespace-nowrap uppercase text-white"
+                            className="text-lg font-bold font-sans leading-relaxed inline-block mr-4 py-2 whitespace-nowrap uppercase text-slate-500"
                             href="#pablo"
                         >
                             Practice 1 - Listening Test
@@ -31,7 +31,7 @@ const Navbar = () => {
                     >
                         <ul className="flex flex-col lg:flex-row list-none lg:ml-auto">
                             <li className="nav-item">
-                                <button class="bg-white text-slate-500 font-semibold py-2 px-4 mx-4 border border-slate-500">
+                                <button class="bg-blue-100 h-12 w-32 border-blue-600 border-solid text-slate-400 font-semibold py-2 px-4 mx-4 border">
                                     Instruction
                                 </button>
                             </li>
