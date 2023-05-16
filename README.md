@@ -1,6 +1,6 @@
 # Listening Test Website
 
-This is a simple listening test website using React Framework and Tailwind CSS for frontend assessment test in Kobi Education. **For live preview:**[https://challenge-kobi.vercel.app/](https://challenge-kobi.vercel.app/)
+This is a simple listening test website using React Framework and Tailwind CSS for frontend assessment test in Kobi Education. **For live preview:** [https://challenge-kobi.vercel.app/](https://challenge-kobi.vercel.app/)
 
 ## Installation
 
