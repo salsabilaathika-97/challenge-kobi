@@ -13,7 +13,7 @@ const QuestionPartTwo = () => {
             </div>
             <p class="font-normal text-lg mb-4 px-4">Complete the form below, using NO MORE THAN THREE WORDS AND/OR NUMBER for each answer</p>
             <div class="grid grid-cols-1 bg-slate-200 h-max font-normal p-2">
-                <p class="text-center">Travel Safe</p>
+                <p class="text-center text-2xl">Travel Safe</p>
                 <p class="mt-8 ml-2">Department: Motor Insurance</p>
                 <div class="ml-2 mb-4">
                     <p class="text-lg mt-8">Client Details: </p>

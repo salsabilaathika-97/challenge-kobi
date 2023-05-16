@@ -16,7 +16,7 @@ const Dashboard = () => {
                 <div class="grid grid-cols-2 gap-8 my-8 mx-10">
                     <div class="text-lg text-slate-500 font-bold">
                         <div class="flex flex-row mb-4">
-                            <div class = "py-1">
+                            <div class = "py-1 text-2xl">
                                 Listening Tips
                             </div>
                             <div class="mx-2 w-56 text-center font-normal bg-blue-500 rounded-full text-white">
