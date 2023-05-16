@@ -15,4 +15,4 @@ npm install
 ### Dashboard Page
 This is the page that displays listening test questions. It doesn't work functionally because there is no backend connected to it.
 
-![Dashboard Page](https://github.com/Binar-Group-3/Car-Rental-Admin/assets/85387669/158ef2c0-0ac8-4185-aa43-e8a280250931)
+![Dashboard Page](https://github.com/Binar-Group-3/Car-Rental-Admin/assets/85387669/df1c7fb1-4b96-48e4-a44a-c3dcbea9b6db)
