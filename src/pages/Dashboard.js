@@ -1,6 +1,7 @@
 import react from "react";
 import Navbar from "../components/Navbar/Navbar";
 import { QuestionStatus } from "../const/StaticData";
+import AudioPlayer from "../components/AudioPlayer/AudioPlayer";
 
 const Dashboard = () => {
     return (
@@ -10,6 +11,9 @@ const Dashboard = () => {
                 <div class="text-lg text-slate-500 font-bold">
                     Listening Tips
                     <p class = "text-sm text-slate-">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque vel leo ipsum. Quisque nisl erat, LoreSm ipsum dolor sit amet, consectetur adipiscing elit</p>
+                <div class = "my-4">
+                    <AudioPlayer />
+                </div>
                 </div>
                 
                 <div class="bg-slate-500 p-2 text-lg text-white font-bold">
