@@ -22,6 +22,7 @@ const Dashboard = () => {
                     <QuestionPartTwo />
                     <QuestionPartThree />
                     <QuestionPartFour />
+                    <button class = "w-full my-4 p-2 font-normal bg-purple-500 hover:bg-purple-700 rounded-md text-white">Submit</button>
                 </div>
 
                 <div class="bg-slate-500 h-max p-2 text-lg text-white font-bold">
